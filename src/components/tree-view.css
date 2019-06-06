@@ -2,11 +2,13 @@
 
 .tree-node {
     overflow-y: hidden;
+    color: blue;
 }
 
 /* style for the container */
 .tree-node-children {
     margin-left: 15px;
+    color: green;
 }
 
 /* style for the leaf */
