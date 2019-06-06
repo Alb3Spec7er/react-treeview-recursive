@@ -12,7 +12,7 @@ export default class TreeNode extends Component {
 
 
     onClick() {
-        
+
       this.setState({
             collapsed: !this.state.collapsed
         });
@@ -20,7 +20,7 @@ export default class TreeNode extends Component {
     }
 
     render() {
-        
+
         let subtree = null;
         if (this.props.data.children) {
           subtree = this.props.data.children.map(function(child) {
@@ -34,7 +34,7 @@ export default class TreeNode extends Component {
             arrowClassName += ' tree-node-arrow-collapsed';
             containerClassName += ' tree-node-children-collapsed';
         }
-        
+
         if (subtree) {
           return (
             <div className="tree-node">
@@ -52,12 +52,12 @@ export default class TreeNode extends Component {
           return (
             <div className="tree-node-leaf">
                 <a data-id={this.props.data.id}>
-                    {this.props.data.name}
+                    {this.props.data.name} {this.props.data.property}
                 </a>
             </div>
         );
         }
 
-        
+
     }
 };

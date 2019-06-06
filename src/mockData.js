@@ -37,7 +37,7 @@ export default {
         }]
     }],
 
-    mock2: 
+    mock2:
     [
     {
       "id": 2,
@@ -45,15 +45,18 @@ export default {
       "children": [
         {
           "id": 3,
-          "name": "Apple"
+          "name": "Apple",
+          "property": "Juicy"
         },
         {
           "id": 4,
-          "name": "Cherry"
+          "name": "Cherry",
+          "property": "Small"
         },
         {
           "id": 5,
-          "name": "Water melon"
+          "name": "Water melon",
+          "property": "Oval"
         }
       ]
     },
@@ -63,15 +66,19 @@ export default {
       "children": [
         {
           "id": 7,
-          "name": "Ford"
+          "name": "Ford",
+          "property": "Economic"
         },
         {
           "id": 8,
-          "name": "Audi"
+          "name": "Audi",
+          "property": "Expensive"
         },
         {
           "id": 10016,
-          "name": "Tesla"
+          "name": "Tesla",
+          "property": "Futuristic"
+
         }
       ]
     },
@@ -85,11 +92,13 @@ export default {
           "children": [
                 {
                   "id": 163,
-                  "name": "Bob"
+                  "name": "Bob",
+                  "property": "Young"
                 },
                 {
                   "id": 164,
-                  "name": "Tom"
+                  "name": "Tom",
+                  "property": "Old"
                 }
               ]
         },
@@ -99,16 +108,18 @@ export default {
           "children": [
                 {
                   "id": 165,
-                  "name": "Alice"
+                  "name": "Alice",
+                  "property": "High"
                 },
                 {
                   "id": 164,
-                  "name": "Tina"
+                  "name": "Tina",
+                  "property": "Tall"
                 }
               ]
         }
       ]
-       
+
     }]
 
 };
